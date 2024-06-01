@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #121212; /* Dark background color */
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust height of the logo */
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navigation ul li a:hover {
+    background-color: #444; /* Darker background color on hover */
+}
+
+/* =----------------------------------------------------------- */
+
+/* hero section */
+.hero {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-message {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffa07a; /* Darker accent color on hover */
+}
+/* ----------------------------------------------------------------- */
+
+/*  */
+.dashboard-overview {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics,
+.recent-activity {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.statistics h2,
+.recent-activity h2 {
+    margin-bottom: 30px;
+}
+
+.stat-item,
+.activity-item {
+    margin-bottom: 20px;
+}
+
+.stat-item h3,
+.activity-item p {
+    margin: 0;
+}
+
+.stat-item p,
+.activity-item span {
+    color: #aaa; /* Lighter text color for statistics and activity details */
+}
+/* ------------------------------------------ */
+
+.artworks-section {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage-artworks,
+.artwork-categories {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.manage-artworks h2,
+.artwork-categories h2 {
+    margin-bottom: 30px;
+}
+
+.artwork-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.artwork-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.artwork-details {
+    flex: 1;
+}
+
+.artwork-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-artwork,
+.add-category-form button {
+    padding: 10px 20px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-category-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* ----------------------------------------- */
+
+.categories-section {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.manage-categories {
+    padding: 0 20px;
+}
+
+.manage-categories h2 {
+    margin-bottom: 30px;
+}
+
+.categories-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.categories-list li span {
+    flex: 1;
+}
+
+.category-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-category-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-category-form button {
+    padding: 10px 20px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================================================ */
+
+.settings-section {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-settings,
+.security-settings {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.account-settings h2,
+.security-settings h2 {
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #ff7f50; /* Accent color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================================================ */
+
+.footer {
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+}
+
+.contact-info,
+.quick-links,
+.social-media {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.social-media .social-icons {
+    display: flex;
+}
+
+.social-media .social-icons .icon-link {
+    margin-right: 10px;
+    color: #fff; /* White icon color */
+    font-size: 24px;
+}
+/* ----------------------------------------------------------- */

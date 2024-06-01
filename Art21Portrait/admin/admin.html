@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="../images/fblogo.png" alt="Artwork Gallery Logo">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">Artworks</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1 class="welcome-message">Welcome, Admin!</h1>
+            <p class="subtext">Manage your artwork gallery with ease.</p>
+            <a href="#" class="cta-button">Go to Dashboard</a>
+        </div>
+    </section>
+
+    <section class="dashboard-overview">
+        <div class="container">
+            <div class="statistics">
+                <h2>Statistics</h2>
+                <div class="stat-item">
+                    <h3>Total Artworks</h3>
+                    <p>100</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Total Artists</h3>
+                    <p>50</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Total Categories</h3>
+                    <p>20</p>
+                </div>
+            </div>
+            <div class="recent-activity">
+                <h2>Recent Activity</h2>
+                <div class="activity-item">
+                    <p>Added new artwork titled "Sunset"</p>
+                    <span>1 hour ago</span>
+                </div>
+                <div class="activity-item">
+                    <p>Updated artist profile for John Doe</p>
+                    <span>2 hours ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="artworks-section">
+        <div class="container">
+            <div class="manage-artworks">
+                <h2>Manage Artworks</h2>
+                <!-- Artworks List -->
+                <div class="artworks-list">
+                    <!-- Artwork Item -->
+                    <div class="artwork-item">
+                        <img src="../images/art1.jpg" alt="Artwork 1">
+                        <div class="artwork-details">
+                            <h3>Artwork Title 1</h3>
+                            <p>Artist: John Doe</p>
+                            <!-- Edit and Delete Buttons -->
+                            <div class="artwork-actions">
+                                <button>Edit</button>
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat for other artworks -->
+                </div>
+                <!-- Add New Artwork Button -->
+                <button class="add-artwork">Add New Artwork</button>
+            </div>
+            <div class="artwork-categories">
+                <h2>Artwork Categories</h2>
+                <!-- Categories List -->
+                <ul class="categories-list">
+                    <li>Abstract</li>
+                    <li>Landscape</li>
+                    <!-- Repeat for other categories -->
+                </ul>
+                <!-- Add New Category Form -->
+                <form class="add-category-form">
+                    <input type="text" placeholder="New Category">
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <div class="container">
+            <div class="manage-categories">
+                <h2>Manage Categories</h2>
+                <!-- Categories List -->
+                <ul class="categories-list">
+                    <!-- Category Item -->
+                    <li>
+                        <span>Category 1</span>
+                        <!-- Edit and Delete Buttons -->
+                        <div class="category-actions">
+                            <button>Edit</button>
+                            <button>Delete</button>
+                        </div>
+                    </li>
+                    <!-- Repeat for other categories -->
+                </ul>
+                <!-- Add New Category Form -->
+                <form class="add-category-form">
+                    <input type="text" placeholder="New Category">
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="settings-section">
+        <div class="container">
+            <div class="account-settings">
+                <h2>Account Settings</h2>
+                <!-- Account Settings Form -->
+                <form class="account-settings-form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                    <button type="submit">Update Account</button>
+                </form>
+            </div>
+            <div class="security-settings">
+                <h2>Security</h2>
+                <!-- Security Settings Form -->
+                <form class="security-settings-form">
+                    <label for="current-password">Current Password</label>
+                    <input type="password" id="current-password" name="current-password" placeholder="Enter your current password">
+                    <label for="new-password">New Password</label>
+                    <input type="password" id="new-password" name="new-password" placeholder="Enter your new password">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your new password">
+                    <button type="submit">Change Password</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 123 Art Street, Cityville, Country</p>
+                <p><strong>Phone:</strong> +1234567890</p>
+                <p><strong>Email:</strong> info@example.com</p>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <!-- Add more links as needed -->
+                </ul>
+            </div>
+            <div class="social-media">
+                <h2>Connect With Us</h2>
+                <div class="social-icons">
+                    <a href="#" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="icon-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="icon-link"><i class="fab fa-instagram"></i></a>
+                    <!-- Add more social media icons as needed -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
